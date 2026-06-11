@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARTickles</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="#top" class="nav-logo">ARTickles</a>
+    <div class="nav-links">
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Art &amp; Poetry</p>
+      <h1 class="hero-title">Where image<br><em>meets word</em></h1>
+      <p class="hero-sub">A collection of graphical artwork and verse — each piece a conversation between the visual and the written.</p>
+      <a href="#gallery" class="hero-cta">View the gallery</a>
+    </div>
+  </header>
+
+  <!-- GALLERY -->
+  <section class="section" id="gallery">
+    <div class="section-header">
+      <h2>Gallery</h2>
+      <p class="section-sub">Artwork and poetry, shown together as they were made — without hierarchy.</p>
+    </div>
+
+    <div class="gallery-grid">
+
+      <!-- SAMPLE ITEM: artwork -->
+      <div class="gallery-item" data-type="artwork">
+        <div class="gallery-img-wrap">
+          <img src="assets/images/placeholder.jpg" alt="Artwork title" />
+        </div>
+        <div class="gallery-meta">
+          <span class="gallery-tag">Artwork</span>
+          <h3 class="gallery-title">Piece Title</h3>
+        </div>
+      </div>
+
+      <!-- SAMPLE ITEM: poetry -->
+      <div class="gallery-item gallery-item--poetry" data-type="poetry">
+        <div class="poetry-card">
+          <span class="gallery-tag">Poetry</span>
+          <h3 class="gallery-title">Poem Title</h3>
+          <p class="poetry-excerpt">First lines of the poem go here,<br>a glimpse to draw the reader in.</p>
+        </div>
+      </div>
+
+      <!-- SAMPLE ITEM: artwork -->
+      <div class="gallery-item" data-type="artwork">
+        <div class="gallery-img-wrap">
+          <img src="assets/images/placeholder.jpg" alt="Artwork title" />
+        </div>
+        <div class="gallery-meta">
+          <span class="gallery-tag">Artwork</span>
+          <h3 class="gallery-title">Piece Title</h3>
+        </div>
+      </div>
+
+      <!-- SAMPLE ITEM: artwork -->
+      <div class="gallery-item" data-type="artwork">
+        <div class="gallery-img-wrap">
+          <img src="assets/images/placeholder.jpg" alt="Artwork title" />
+        </div>
+        <div class="gallery-meta">
+          <span class="gallery-tag">Artwork</span>
+          <h3 class="gallery-title">Piece Title</h3>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider"></div>
+
+  <!-- ABOUT -->
+  <section class="section section--about" id="about">
+    <div class="about-inner">
+      <h2>About ARTickles</h2>
+      <p>ARTickles is a space where graphical art and poetry coexist — not as separate disciplines, but as two ways of seeing the same world. Each piece here began as an impulse: something noticed, felt, or imagined that demanded to be made visible.</p>
+      <p>Whether through line, colour, or carefully chosen words, the work here is an ongoing exploration of what images and language can do that neither can manage alone.</p>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider"></div>
+
+  <!-- CONTACT -->
+  <section class="section section--contact" id="contact">
+    <div class="contact-inner">
+      <h2>Get in touch</h2>
+      <p>For commissions, collaborations, or just to say hello — reach out below.</p>
+      <a href="mailto:hello@example.com" class="contact-email">hello@example.com</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© <span id="year"></span> ARTickles. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
