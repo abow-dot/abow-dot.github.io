@@ -6,14 +6,16 @@
   <title>ARTickles</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <!-- NAV -->
   <nav class="nav">
-    <a href="#top" class="nav-logo">ARTickles</a>
+    <a href="#top" class="nav-logo">
+      <img src="assets/images/logo.png" alt="ARTickles" />
+    </a>
     <div class="nav-links">
       <a href="#gallery">Gallery</a>
       <a href="#about">About</a>
@@ -25,61 +27,127 @@
   <header class="hero" id="top">
     <div class="hero-inner">
       <p class="hero-eyebrow">Art &amp; Poetry</p>
-      <h1 class="hero-title">Where image<br><em>meets word</em></h1>
-      <p class="hero-sub">A collection of graphical artwork and verse — each piece a conversation between the visual and the written.</p>
+      <h1 class="hero-title">A Photo-doodled look<br><em>at Alternate Avatars</em></h1>
+      <p class="hero-sub">By ShuPri</p>
       <a href="#gallery" class="hero-cta">View the gallery</a>
     </div>
   </header>
 
   <!-- GALLERY -->
-  <section class="section" id="gallery">
+  <section class="section paperstack" id="gallery">
     <div class="section-header">
       <h2>Gallery</h2>
-      <p class="section-sub">Artwork and poetry, shown together as they were made — without hierarchy.</p>
+      <p class="section-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
 
     <div class="gallery-grid">
 
-      <!-- SAMPLE ITEM: artwork -->
-      <div class="gallery-item" data-type="artwork">
-        <div class="gallery-img-wrap">
-          <img src="assets/images/placeholder.jpg" alt="Artwork title" />
-        </div>
-        <div class="gallery-meta">
-          <span class="gallery-tag">Artwork</span>
-          <h3 class="gallery-title">Piece Title</h3>
-        </div>
+      <div class="gallery-item" data-img="assets/images/full/cafe-au-braid.jpg">
+        <h3 class="gallery-title">Cafe au Braid</h3>
+        <div class="gallery-img-wrap box1"><img src="assets/images/thumbs/cafe-au-braid.jpg" alt="Cafe au Braid" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
       </div>
 
-      <!-- SAMPLE ITEM: poetry -->
-      <div class="gallery-item gallery-item--poetry" data-type="poetry">
-        <div class="poetry-card">
-          <span class="gallery-tag">Poetry</span>
-          <h3 class="gallery-title">Poem Title</h3>
-          <p class="poetry-excerpt">First lines of the poem go here,<br>a glimpse to draw the reader in.</p>
-        </div>
+      <div class="gallery-item" data-img="assets/images/full/einstein-caulihead.jpg">
+        <h3 class="gallery-title">Einstein Caulihead</h3>
+        <div class="gallery-img-wrap box2"><img src="assets/images/thumbs/einstein-caulihead.jpg" alt="Einstein Caulihead" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
       </div>
 
-      <!-- SAMPLE ITEM: artwork -->
-      <div class="gallery-item" data-type="artwork">
-        <div class="gallery-img-wrap">
-          <img src="assets/images/placeholder.jpg" alt="Artwork title" />
-        </div>
-        <div class="gallery-meta">
-          <span class="gallery-tag">Artwork</span>
-          <h3 class="gallery-title">Piece Title</h3>
-        </div>
+      <div class="gallery-item" data-img="assets/images/full/i-yam-a-seahorse.jpg">
+        <h3 class="gallery-title">I Yam a Seahorse</h3>
+        <div class="gallery-img-wrap box1"><img src="assets/images/thumbs/i-yam-a-seahorse.jpg" alt="I Yam a Seahorse" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
       </div>
 
-      <!-- SAMPLE ITEM: artwork -->
-      <div class="gallery-item" data-type="artwork">
-        <div class="gallery-img-wrap">
-          <img src="assets/images/placeholder.jpg" alt="Artwork title" />
-        </div>
-        <div class="gallery-meta">
-          <span class="gallery-tag">Artwork</span>
-          <h3 class="gallery-title">Piece Title</h3>
-        </div>
+      <div class="gallery-item" data-img="assets/images/full/capsicock.jpg">
+        <h3 class="gallery-title">CapsiCock</h3>
+        <div class="gallery-img-wrap box2"><img src="assets/images/thumbs/capsicock.jpg" alt="CapsiCock" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
+      </div>
+
+      <div class="gallery-item" data-img="assets/images/full/winnie-the-poohtato.jpg">
+        <h3 class="gallery-title">Winnie-the-Poohtato</h3>
+        <div class="gallery-img-wrap box1"><img src="assets/images/thumbs/winnie-the-poohtato.jpg" alt="Winnie-the-Poohtato" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
+      </div>
+
+      <div class="gallery-item" data-img="assets/images/full/punkpotato.jpg">
+        <h3 class="gallery-title">PunkPotato</h3>
+        <div class="gallery-img-wrap box2"><img src="assets/images/thumbs/punkpotato.jpg" alt="PunkPotato" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
+      </div>
+
+      <div class="gallery-item" data-img="assets/images/full/karelacroc.jpg">
+        <h3 class="gallery-title">KarelaCroc</h3>
+        <div class="gallery-img-wrap box1"><img src="assets/images/thumbs/karelacroc.jpg" alt="KarelaCroc" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
+      </div>
+
+      <div class="gallery-item" data-img="assets/images/full/ostrichoke-hiding.jpg">
+        <h3 class="gallery-title">Ostrichoke Hiding</h3>
+        <div class="gallery-img-wrap box2"><img src="assets/images/thumbs/ostrichoke-hiding.jpg" alt="Ostrichoke Hiding" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
+      </div>
+
+      <div class="gallery-item" data-img="assets/images/full/toucannana.jpg">
+        <h3 class="gallery-title">ToucanNana</h3>
+        <div class="gallery-img-wrap box1"><img src="assets/images/thumbs/toucannana.jpg" alt="ToucanNana" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
+      </div>
+
+      <div class="gallery-item" data-img="assets/images/full/ostrichoke-singleton.jpg">
+        <h3 class="gallery-title">Ostrichoke Singleton</h3>
+        <div class="gallery-img-wrap box2"><img src="assets/images/thumbs/ostrichoke-singleton.jpg" alt="Ostrichoke Singleton" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
+      </div>
+
+      <div class="gallery-item" data-img="assets/images/full/ostrichoke-twins.jpg">
+        <h3 class="gallery-title">Ostrichoke Twins</h3>
+        <div class="gallery-img-wrap box1"><img src="assets/images/thumbs/ostrichoke-twins.jpg" alt="Ostrichoke Twins" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
+      </div>
+
+      <div class="gallery-item" data-img="assets/images/full/pengunana.jpg">
+        <h3 class="gallery-title">PenguNana</h3>
+        <div class="gallery-img-wrap box2"><img src="assets/images/thumbs/pengunana.jpg" alt="PenguNana" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
+      </div>
+
+      <div class="gallery-item" data-img="assets/images/full/moosenana.jpg">
+        <h3 class="gallery-title">MooseNana</h3>
+        <div class="gallery-img-wrap box1"><img src="assets/images/thumbs/moosenana.jpg" alt="MooseNana" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
+      </div>
+
+      <div class="gallery-item" data-img="assets/images/full/rotten-pair.jpg">
+        <h3 class="gallery-title">Rotten Pair</h3>
+        <div class="gallery-img-wrap box2"><img src="assets/images/thumbs/rotten-pair.jpg" alt="Rotten Pair" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
+      </div>
+
+      <div class="gallery-item" data-img="assets/images/full/octo-a-peel.jpg">
+        <h3 class="gallery-title">Octo-a-Peel</h3>
+        <div class="gallery-img-wrap box1"><img src="assets/images/thumbs/octo-a-peel.jpg" alt="Octo-a-Peel" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
+      </div>
+
+      <div class="gallery-item" data-img="assets/images/full/bald-pine-eagle.jpg">
+        <h3 class="gallery-title">Bald Pine-Eagle</h3>
+        <div class="gallery-img-wrap box2"><img src="assets/images/thumbs/bald-pine-eagle.jpg" alt="Bald Pine-Eagle" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
+      </div>
+
+      <div class="gallery-item" data-img="assets/images/full/leaf-ening-wear.jpg">
+        <h3 class="gallery-title">Leaf-ening Wear</h3>
+        <div class="gallery-img-wrap box1"><img src="assets/images/thumbs/leaf-ening-wear.jpg" alt="Leaf-ening Wear" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
+      </div>
+
+      <div class="gallery-item" data-img="assets/images/full/lettuce-legs.jpg">
+        <h3 class="gallery-title">Lettuce Legs</h3>
+        <div class="gallery-img-wrap box2"><img src="assets/images/thumbs/lettuce-legs.jpg" alt="Lettuce Legs" loading="lazy" /></div>
+        <button class="gallery-btn">View</button>
       </div>
 
     </div>
@@ -89,11 +157,16 @@
   <div class="divider"></div>
 
   <!-- ABOUT -->
-  <section class="section section--about" id="about">
+  <section class="section section--about paperstack" id="about">
     <div class="about-inner">
       <h2>About ARTickles</h2>
       <p>ARTickles is a space where graphical art and poetry coexist — not as separate disciplines, but as two ways of seeing the same world. Each piece here began as an impulse: something noticed, felt, or imagined that demanded to be made visible.</p>
       <p>Whether through line, colour, or carefully chosen words, the work here is an ongoing exploration of what images and language can do that neither can manage alone.</p>
+    </div>
+
+    <div class="about-inner">
+      <h2>About ShuPri</h2>
+      <p>ShuPri is a writer, artist and poet based in Bangalore, India. Following a long career in advertising as a Creative Director, ShuPri now creates work that bridges the gap between the visual and the written, exploring everyday items with serendipity and humour, transforming the ordinary into extraordinary.</p>
     </div>
   </section>
 
@@ -101,7 +174,7 @@
   <div class="divider"></div>
 
   <!-- CONTACT -->
-  <section class="section section--contact" id="contact">
+  <section class="section section--contact paperstack" id="contact">
     <div class="contact-inner">
       <h2>Get in touch</h2>
       <p>For commissions, collaborations, or just to say hello — reach out below.</p>
@@ -114,9 +187,18 @@
     <p>© <span id="year"></span> ARTickles. All rights reserved.</p>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Artwork detail">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-arrow lightbox-arrow--prev" id="lightbox-prev" aria-label="Previous">&#8249;</button>
+    <div class="lightbox-inner">
+      <div class="lightbox-img-wrap">
+        <img id="lightbox-img" src="" alt="" />
+      </div>
+    </div>
+    <button class="lightbox-arrow lightbox-arrow--next" id="lightbox-next" aria-label="Next">&#8250;</button>
+  </div>
 
+  <script src="main.js"></script>
 </body>
 </html>
